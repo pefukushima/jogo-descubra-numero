@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+:root {
+    --font-family: 'Roboto', sans-serif;
+    --color-one: #645CBB;
+    --color-two: #EBC7E6;
+    --color-three:  rgb(235, 250, 19);
+    --color-four: rgb(101, 206, 233);
+    --color-five: rgb(250, 10, 150);
+}
+
+body {
+    background-color: var(--color-one);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: var(--color-two);
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    font-family: var(--font-family);
+}
+
+h1 {
+    font-size: 3em;
+}
+
+h2 {
+    color: var(--color-three);
+    font-size: 3em;
+    font-weight: bold;
+    margin-top: -400px
+}
+
+h3 {
+    font-size: 1.5em;
+    margin-top: 20px;
+}
+
+h4{
+    color: var(--color-three);
+    font-size: 3em;
+    font-weight: bold; 
+}
+
+.desistente {
+    color: var(--color-five);
+    font-weight: bold;
+}
+
+.palpite {
+    font-size: 1.5em;
+    margin-top: 35px;
+}
+
+.box {
+    border: 2px solid var(--color-two);
+    font-size: 2em;
+    font-weight: bolder;
+    display: inline-block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+.nan {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: var(--color-three);
+}
+
+.playagain {
+    background-color: var(--color-one);
+    border-radius: 5px;
+    color: var(--color-two);
+    font-weight: bold;
+    padding: 8px 45px;
+}
+
+.playagain:hover {
+    background-color: var(--color-two);
+    color: var(--color-one);
+    transition: 1s;
+}
+
+.rodape {
+    color: yellow;
+    font-weight: bold;
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    margin: 0 -150px;
+}
